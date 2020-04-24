@@ -1,0 +1,48 @@
+    .header {
+        display: flex;
+        padding-bottom: 20px;
+        background-color: white;
+    }
+    h1 {
+        background: url(./logo_etc/header_logo.jpg) no-repeat;
+        background-size: contain;
+        background-position: 280px;
+        text-align: left;
+        padding-left: 40px;
+        width: 100%
+    }
+    body {
+        background-image: url(./logo_etc/sea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        margin: 0;
+    }
+    .main{
+        height:900px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .center {
+        text-align: center;
+    }
+    .error {
+        color: red;
+    }
+    footer {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        clear:both;
+    }
+    .copyright {
+        border-top: solid 1px;
+        padding-top: 20px;
+    }
+    .register {
+        color: red;
+    }
+    .company_name {
+        font-family: serif;
+    }

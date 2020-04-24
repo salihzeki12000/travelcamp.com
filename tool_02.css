@@ -1,0 +1,23 @@
+    h1 {
+        border-bottom:solid 1px black;
+        padding-bottom:10px;
+    }
+    .prd_chg {
+        border-top:solid 1px black;
+        padding-top: 10px;
+    }
+    .prd_index {
+        margin-bottom: 0;
+    }
+    table {
+        width: 960px;
+        border-collapse: collapse;
+    }
+    table, tr, th, td {
+        border: solid 1px;
+        padding: 10px;
+        text-align: center;
+    }
+    .grey {
+        background-color: grey;
+    }

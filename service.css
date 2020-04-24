@@ -1,0 +1,113 @@
+    .cart {
+        height: 50px;
+        width: 50px;
+        vertical-align: -15px;
+    }
+    .header {
+        display: flex;
+        padding-bottom: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    .header_next_01 {
+        flex: 1;
+        width: 70%;
+    }
+    .header_next_02 {
+        flex: 1;
+        width: 30%;
+    }
+    h1 {
+        background: url(./logo_etc/header_logo.jpg) no-repeat;
+        background-size: contain;
+        background-position: 280px;
+        text-align: left;
+        padding-left: 40px;
+    }
+    .amount {
+        padding-left: 30px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .welcome {
+       position: absolute;
+       top: 39px;
+       right: 33px;
+    }
+   .cart {
+       position: absolute;
+       top: 31px;
+       right: 20px;
+       }
+    .over_99 {
+        font-size: 9px;
+        position: relative;
+        top: -3px;
+        right: -3px;
+    }
+    .top_logo {
+        text-decoration: none;
+        color: black;
+    }
+    body {
+        background-image: url(./logo_etc/sea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        margin: 0;
+    }
+    .main{
+        height:900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        clear:both;
+    }
+    .copyright {
+        border-top: solid 1px;
+        padding-top: 20px;
+    }
+    .center {
+        background-color:  #f0f8ff;
+        padding: 30px;
+        border-radius: 20px;
+        max-width: 400px;
+    }
+    .comment {
+        border-bottom: dotted 1px black;
+    }
+    .index {
+        margin-top: 50px;
+    }
+    .form {
+        width: 100%;
+        text-align: center;
+    }
+    select {
+        width: 50%;
+        font-size: 15px;
+    }
+    .center h2 {
+        text-align: center;
+        color: red;
+    }
+    .btn {
+        padding: 10px 15px;
+        background-color: #5dca88;
+        cursor: pointer;
+        box-shadow: 0 7px #1a7940;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .btn:active{
+        position: relative;
+        top: 7px;
+        box-shadow: none;
+    }
+    .company_name {
+        font-family: serif;
+    }

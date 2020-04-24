@@ -1,0 +1,101 @@
+    .cart {
+        height: 50px;
+        width: 50px;
+        vertical-align: -15px;
+    }
+   .header {
+        display: flex;
+        padding-bottom: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    .header_next_01 {
+        flex: 1;
+        width: 70%;
+    }
+    .header_next_02 {
+        flex: 1;
+        width: 30%;
+    }
+    h1 {
+        background: url(./logo_etc/header_logo.jpg) no-repeat;
+        background-size: contain;
+        background-position: 280px;
+        text-align: left;
+        padding-left: 40px;
+    }
+    .amount {
+        padding-left: 30px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .welcome {
+       position: absolute;
+       top: 39px;
+       right: 33px;
+    }
+   .cart {
+       position: absolute;
+       top: 31px;
+       right: 20px;
+       }
+    .over_99 {
+        font-size: 9px;
+        position: relative;
+        top: -3px;
+        right: -3px;
+    }
+    .top_logo {
+        text-decoration: none;
+        color: black;
+    }
+    body {
+        background-image: url(./logo_etc/sea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        margin: 0;
+    }
+    .main{
+        display: flex;
+        height:960px;
+        padding-top: 10px;
+        width: 95%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    footer {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        clear:both;
+    }
+    .copyright {
+        border-top: solid 1px;
+        padding-top: 20px;
+    }
+    .center {
+        background-color: #f0f8ff;
+        padding: 30px;
+        border-radius: 20px;
+        max-width: 400px;
+    }
+    .city_name {
+        text-align: center;
+        font-size: 36px;
+        color: red;
+    }
+    .review {
+        padding-left: 30px;
+    }
+    .review_title {
+        text-align: center;
+        color: red;
+        font-size: 20px;
+    }
+    .image {
+        text-align: center;
+    }
+    .company_name {
+        font-family: serif;
+    }

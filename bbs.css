@@ -1,0 +1,125 @@
+    .header {
+        display: flex;
+        padding-bottom: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    .header_next_01 {
+        flex: 1;
+        width: 70%;
+    }
+    .header_next_02 {
+        flex: 1;
+        width: 30%;
+    }
+    .amount {
+        padding-left: 30px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .welcome {
+       position: absolute;
+       top: 39px;
+       right: 33px;
+    }
+   .cart {
+       position: absolute;
+       top: 31px;
+       right: 20px;
+       }
+    .over_99 {
+        font-size: 9px;
+        position: relative;
+        top: -3px;
+        right: -3px;
+    }
+    .top_logo {
+        text-decoration: none;
+        color: black;
+    }
+    h1 {
+        background: url(./logo_etc/header_logo.jpg) no-repeat;
+        background-size: contain;
+        background-position: 280px;
+        text-align: left;
+        padding-left: 40px;
+    }
+    .msg {
+        color: red;
+    }
+    body {
+        background-image: url(./logo_etc/sea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        margin: 0;
+    }
+    .main{
+        height:960px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .main > h2 {
+        color: red;
+        font-weight: normal;
+    }
+    .textarea {
+        height: 150px;
+        width: 60%;
+        padding: 0;
+    }
+    .destination {
+        margin-left: 30px;
+    }
+    .term {
+        margin-left: 30px;
+    }
+    .table_container {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-left: 30px;
+    }
+    thead, tbody {
+        display: block;
+    }
+    tbody {
+        overflow-y: scroll;
+        height: 330px;
+    }
+    th {
+        border: solid 1px black;
+        background-color: #d3d3d3;
+        min-width: 200px;
+        height: 35px;
+    }
+    td {
+        border: solid 1px black;
+        background-color: white;
+        width: 200px;
+    }
+    .contents {
+        text-align: center;
+    }
+    .review {
+        min-width: 600px;
+        text-align: left;
+    }
+    .review_center {
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        clear:both;
+    }
+    .copyright {
+        border-top: solid 1px;
+        padding-top: 20px;
+    }
+    .company_name {
+        font-family: serif;
+    }

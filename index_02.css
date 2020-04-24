@@ -1,0 +1,163 @@
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .layout {
+        width: 100%;
+        flex:6 ;
+        overflow: scroll;
+    }
+    .pic_bottom {
+        display: block;
+        text-align: center;
+        margin: 3px;
+    }
+    .inner_top {
+        float: left; 
+        padding: 5px;
+    }
+    .inner_bottom{
+        float: left; 
+        padding: 5px;
+    }
+    .header {
+        display: flex;
+        padding-bottom: 20px;
+        background-color: white;
+    }
+    .header_next_01 {
+        flex: 1;
+    }
+    .header_next_02 {
+        flex: 1;
+    }
+     h1 {
+        background: url(./logo_etc/header_logo.jpg) no-repeat;
+        background-size: contain;
+        background-position: 280px;
+        text-align: left;
+        padding-left: 40px;
+    }
+    h2 {
+        font-weight: normal;
+    }
+    body {
+        background-image: url(./logo_etc/sea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        margin: 0;
+    }
+    .main{
+        display: flex;
+        height:1000px;
+        padding-top: 10px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .left_side {
+        flex: 2;
+    }
+    .left_side_scroll {
+        overflow: scroll;
+        height: 800px;
+        margin-bottom: 10px;
+    }
+    .title_left {
+        text-align: center;
+        padding-top:10px;
+        color: white;
+    }
+    .bar {
+        margin-bottom: 8px;
+    }
+    .left_box {
+        background-color: #1e90ff;
+        width: 90%;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+    .textbox {
+        height: 20px;
+        width: 150px;
+    }
+    .search_button {
+        display       : inline-block;
+        border-radius : 20%;
+        font-size     : 12pt;
+        cursor        : pointer;
+        background    : #000066;
+        color         : #ffffff;
+        line-height   : 1em;
+        box-shadow    : 6px 6px 3px #666666;
+        border        : 2px solid #000066;
+    }
+    .sold_out {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        color: red;
+    }
+    .top_logo {
+        text-decoration: none;
+        color: black;
+    }
+    footer {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .copyright {
+        border-top: solid 1px;
+        padding-top: 20px;
+    }
+    .search_box {
+        padding-left: 20px;
+    }
+    .city {
+        text-decoration: none;
+    }
+    .service {
+        width: 100%;
+    }
+    .cart_msg {
+        color: red;
+    }
+    .amount {
+        padding-left: 30px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .welcome {
+       position: absolute;
+       top: 39px;
+       right: 33px;
+    }
+   .cart {
+       position: absolute;
+       top: 31px;
+       right: 20px;
+       }
+    .over_99 {
+        font-size: 9px;
+        position: relative;
+        top: -3px;
+        right: -3px;
+    }
+    .direction {
+        color: red;
+    }
+    .company_name {
+        font-family: serif;
+    }
+    .err_msg {
+        color: red;
+    }
+    .order {
+        float: right;
+        height: 10px;
+    }
+    .sale {
+        color: red;
+    }

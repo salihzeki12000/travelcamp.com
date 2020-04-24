@@ -1,0 +1,84 @@
+    .header {display: flex;
+        padding-bottom: 20px;
+        background-color: white;
+    }
+    .header_next {flex: 1;
+        text-align: right;
+    }
+    .logout {
+        display: block;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+    h1 {
+        background: url(./logo_etc/header_logo.jpg) no-repeat;
+        background-size: contain;
+        background-position: 280px;
+        text-align: left;
+        padding-left: 40px;
+    }
+    .top_logo {
+        text-decoration: none;
+        color: black;
+    }
+    body {
+        background-image: url(./logo_etc/sea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        margin: 0;
+    }
+    .main{
+        display: flex;
+        height:960px;
+        padding-top: 10px;
+        width: 95%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    footer {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        clear:both;
+    }
+    .copyright {
+        border-top: solid 1px;
+        padding-top: 20px;
+    }
+    .center {
+        background-color: #f0f8ff;
+        padding: 30px;
+        border-radius: 20px;
+        max-width: 400px;
+    }
+    .city_name {
+        text-align: center;
+        font-size: 36px;
+        color: red;
+    }
+    .review {
+        padding-left: 30px;
+    }
+    .review_title {
+        text-align: center;
+        color: red;
+        font-size: 20px;
+    }
+    .image {
+        text-align: center;
+    }
+    .company_name {
+        font-family: serif;
+    }
+    .country_name {
+        text-align: center;
+        color: red;
+        font-size: 30px;
+    }
+    .divide {
+        text-align: center;
+    }
+    .err {
+        color: red;
+    }
